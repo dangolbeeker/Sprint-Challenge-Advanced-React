@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import axios from "axios";
 import DisplayPlayers from "./Players";
 import { Table } from "reactstrap";
-import Navbar from "./Navbar";
-
 class FetchPlayers extends Component {
     constructor() {
       super();
